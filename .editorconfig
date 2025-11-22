@@ -9,6 +9,12 @@ insert_final_newline = true
 max_line_length = 100
 trim_trailing_whitespace = true
 
+[*.{COMMIT_EDITMSG,lock}]
+max_line_length = 0
+
+[*.{bat,cmd,ps1}]
+end_of_line = crlf
+
 [*.{toml,yaml,yml}]
 indent_style = space
 

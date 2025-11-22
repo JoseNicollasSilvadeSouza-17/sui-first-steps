@@ -1,0 +1,25 @@
+# Normalização de final de linha:
+* text=auto eol=lf
+
+# Código-fonte (Tratado como texto):
+*.md text
+*.move linguist-language=Move
+*.toml text
+*.yaml text
+*.yml text 
+
+# Scripts (Cross-Platform):
+## CRLF
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.ps1 text eol=crlf
+
+## LF
+*.bash text eol=lf
+*.fish text eol=lf
+*.sh text eol=lf
+*.zsh text eol=lf
+
+# Git LFS:
+*.png filter=lfs diff=lfs merge=lfs -text
+*.jpg filter=lfs diff=lfs merge=lfs -text
