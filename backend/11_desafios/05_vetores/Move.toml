@@ -1,0 +1,8 @@
+[package]
+name = "Vetores"
+version = "0.0.0"
+
+[addresses]
+desafio = "0x0"
+
+[dependencies]
